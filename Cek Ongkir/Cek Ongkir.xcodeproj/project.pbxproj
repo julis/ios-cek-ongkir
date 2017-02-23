@@ -15,6 +15,7 @@
 		82DD48CE1E5F4390000FFF60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DD48CC1E5F4390000FFF60 /* LaunchScreen.storyboard */; };
 		82DD48D91E5F4390000FFF60 /* Cek_OngkirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD48D81E5F4390000FFF60 /* Cek_OngkirTests.swift */; };
 		82DD48E41E5F4390000FFF60 /* Cek_OngkirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD48E31E5F4390000FFF60 /* Cek_OngkirUITests.swift */; };
+		82DD48F31E5F5533000FFF60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD48F21E5F5533000FFF60 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		82DD48DF1E5F4390000FFF60 /* Cek OngkirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cek OngkirUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DD48E31E5F4390000FFF60 /* Cek_OngkirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cek_OngkirUITests.swift; sourceTree = "<group>"; };
 		82DD48E51E5F4390000FFF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DD48F21E5F5533000FFF60 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				82DD48CC1E5F4390000FFF60 /* LaunchScreen.storyboard */,
 				82DD48CF1E5F4390000FFF60 /* Info.plist */,
 				82DD48C71E5F4390000FFF60 /* Cek_Ongkir.xcdatamodeld */,
+				82DD48F21E5F5533000FFF60 /* Constants.swift */,
 			);
 			path = "Cek Ongkir";
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					82DD48BC1E5F438F000FFF60 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 594549GUAG;
 					};
 					82DD48D31E5F4390000FFF60 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -262,6 +266,7 @@
 				82DD48C31E5F4390000FFF60 /* ViewController.swift in Sources */,
 				82DD48C91E5F4390000FFF60 /* Cek_Ongkir.xcdatamodeld in Sources */,
 				82DD48C11E5F4390000FFF60 /* AppDelegate.swift in Sources */,
+				82DD48F31E5F5533000FFF60 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +410,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Cek Ongkir/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "id.julis.ios.Cek-Ongkir";
@@ -416,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Cek Ongkir/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "id.julis.ios.Cek-Ongkir";
