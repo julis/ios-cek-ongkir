@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E3C33A2A8B45CEB30EBA478 /* Pods_Cek_Ongkir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7BDD89099743DB98CF8C85 /* Pods_Cek_Ongkir.framework */; };
+		82AFDD5C1E6298BB00A9D0F9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFDD5B1E6298BB00A9D0F9 /* API.swift */; };
+		82AFDD5E1E62BDAC00A9D0F9 /* cekongkir.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AFDD5D1E62BDAC00A9D0F9 /* cekongkir.png */; };
+		82AFDD601E62CC5F00A9D0F9 /* LocationSearchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFDD5F1E62CC5F00A9D0F9 /* LocationSearchBarController.swift */; };
+		82AFDD621E62CD5F00A9D0F9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFDD611E62CD5F00A9D0F9 /* SearchViewController.swift */; };
+		82AFDD641E62D0C400A9D0F9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFDD631E62D0C400A9D0F9 /* SettingsViewController.swift */; };
+		82AFDD661E62E2DB00A9D0F9 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFDD651E62E2DB00A9D0F9 /* ResultsViewController.swift */; };
+		82AFDD681E62E31A00A9D0F9 /* CardTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFDD671E62E31A00A9D0F9 /* CardTableView.swift */; };
+		82AFDD6A1E62E32B00A9D0F9 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFDD691E62E32B00A9D0F9 /* CardTableViewCell.swift */; };
+		82AFDD6C1E62E38800A9D0F9 /* ResultToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFDD6B1E62E38800A9D0F9 /* ResultToolbarController.swift */; };
+		82DD48C11E5F4390000FFF60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD48C01E5F4390000FFF60 /* AppDelegate.swift */; };
+		82DD48C31E5F4390000FFF60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD48C21E5F4390000FFF60 /* ViewController.swift */; };
+		82DD48C61E5F4390000FFF60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DD48C41E5F4390000FFF60 /* Main.storyboard */; };
+		82DD48C91E5F4390000FFF60 /* Cek_Ongkir.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82DD48C71E5F4390000FFF60 /* Cek_Ongkir.xcdatamodeld */; };
+		82DD48CB1E5F4390000FFF60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DD48CA1E5F4390000FFF60 /* Assets.xcassets */; };
+		82DD48CE1E5F4390000FFF60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DD48CC1E5F4390000FFF60 /* LaunchScreen.storyboard */; };
+		82DD48D91E5F4390000FFF60 /* Cek_OngkirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD48D81E5F4390000FFF60 /* Cek_OngkirTests.swift */; };
+		82DD48E41E5F4390000FFF60 /* Cek_OngkirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD48E31E5F4390000FFF60 /* Cek_OngkirUITests.swift */; };
+		82DD48F31E5F5533000FFF60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD48F21E5F5533000FFF60 /* Constants.swift */; };
+		C40AFDABD1EA944E84244C99 /* Pods_Cek_OngkirTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E56B4D7654633E2F79F59D5 /* Pods_Cek_OngkirTests.framework */; };
+		DE8712B30EA71BDC42E7406E /* Pods_Cek_OngkirUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C089C1FFB3E73B76764A29E /* Pods_Cek_OngkirUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82DD48D51E5F4390000FFF60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82DD48B51E5F438F000FFF60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82DD48BC1E5F438F000FFF60;
+			remoteInfo = "Cek Ongkir";
+		};
+		82DD48E01E5F4390000FFF60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82DD48B51E5F438F000FFF60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82DD48BC1E5F438F000FFF60;
+			remoteInfo = "Cek Ongkir";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E56B4D7654633E2F79F59D5 /* Pods_Cek_OngkirTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cek_OngkirTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7BDD89099743DB98CF8C85 /* Pods_Cek_Ongkir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cek_Ongkir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF8FAC3D68F25ABE8B45107 /* Pods-Cek OngkirTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cek OngkirTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cek OngkirTests/Pods-Cek OngkirTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82AFDD5B1E6298BB00A9D0F9 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		82AFDD5D1E62BDAC00A9D0F9 /* cekongkir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cekongkir.png; sourceTree = "<group>"; };
+		82AFDD5F1E62CC5F00A9D0F9 /* LocationSearchBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchBarController.swift; sourceTree = "<group>"; };
+		82AFDD611E62CD5F00A9D0F9 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		82AFDD631E62D0C400A9D0F9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		82AFDD651E62E2DB00A9D0F9 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		82AFDD671E62E31A00A9D0F9 /* CardTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableView.swift; sourceTree = "<group>"; };
+		82AFDD691E62E32B00A9D0F9 /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		82AFDD6B1E62E38800A9D0F9 /* ResultToolbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultToolbarController.swift; sourceTree = "<group>"; };
+		82DD48BD1E5F4390000FFF60 /* Cek Ongkir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cek Ongkir.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DD48C01E5F4390000FFF60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Cek Ongkir/AppDelegate.swift"; sourceTree = "<group>"; };
+		82DD48C21E5F4390000FFF60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82DD48C51E5F4390000FFF60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82DD48C81E5F4390000FFF60 /* Cek_Ongkir.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cek_Ongkir.xcdatamodel; sourceTree = "<group>"; };
+		82DD48CA1E5F4390000FFF60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82DD48CD1E5F4390000FFF60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82DD48CF1E5F4390000FFF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Cek Ongkir/Info.plist"; sourceTree = "<group>"; };
+		82DD48D41E5F4390000FFF60 /* Cek OngkirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cek OngkirTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DD48D81E5F4390000FFF60 /* Cek_OngkirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cek_OngkirTests.swift; sourceTree = "<group>"; };
+		82DD48DA1E5F4390000FFF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DD48DF1E5F4390000FFF60 /* Cek OngkirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cek OngkirUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DD48E31E5F4390000FFF60 /* Cek_OngkirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cek_OngkirUITests.swift; sourceTree = "<group>"; };
+		82DD48E51E5F4390000FFF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DD48F21E5F5533000FFF60 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		85A38707039AB7608EF7FEC1 /* Pods-Cek OngkirUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cek OngkirUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cek OngkirUITests/Pods-Cek OngkirUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C089C1FFB3E73B76764A29E /* Pods_Cek_OngkirUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cek_OngkirUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CEAABD94EC0803F45925A45 /* Pods-Cek OngkirTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cek OngkirTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cek OngkirTests/Pods-Cek OngkirTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7B0C4F7FD6D1365C08A7F13 /* Pods-Cek OngkirUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cek OngkirUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cek OngkirUITests/Pods-Cek OngkirUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5F70318114E2DFF30F4F881 /* Pods-Cek Ongkir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cek Ongkir.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cek Ongkir/Pods-Cek Ongkir.release.xcconfig"; sourceTree = "<group>"; };
+		BF480D9D51274FC32222F6E1 /* Pods-Cek Ongkir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cek Ongkir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cek Ongkir/Pods-Cek Ongkir.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82DD48BA1E5F438F000FFF60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3C33A2A8B45CEB30EBA478 /* Pods_Cek_Ongkir.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD48D11E5F4390000FFF60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40AFDABD1EA944E84244C99 /* Pods_Cek_OngkirTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD48DC1E5F4390000FFF60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8712B30EA71BDC42E7406E /* Pods_Cek_OngkirUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82AFDD561E6296B900A9D0F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		82AFDD571E6296FD00A9D0F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82AFDD5D1E62BDAC00A9D0F9 /* cekongkir.png */,
+				82DD48CC1E5F4390000FFF60 /* LaunchScreen.storyboard */,
+				82DD48C41E5F4390000FFF60 /* Main.storyboard */,
+				82DD48CA1E5F4390000FFF60 /* Assets.xcassets */,
+				82AFDD671E62E31A00A9D0F9 /* CardTableView.swift */,
+				82AFDD691E62E32B00A9D0F9 /* CardTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82AFDD581E62971B00A9D0F9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				82DD48C21E5F4390000FFF60 /* ViewController.swift */,
+				82AFDD5F1E62CC5F00A9D0F9 /* LocationSearchBarController.swift */,
+				82AFDD611E62CD5F00A9D0F9 /* SearchViewController.swift */,
+				82AFDD631E62D0C400A9D0F9 /* SettingsViewController.swift */,
+				82AFDD651E62E2DB00A9D0F9 /* ResultsViewController.swift */,
+				82AFDD6B1E62E38800A9D0F9 /* ResultToolbarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		82AFDD591E62974E00A9D0F9 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				82DD48C71E5F4390000FFF60 /* Cek_Ongkir.xcdatamodeld */,
+				82AFDD5B1E6298BB00A9D0F9 /* API.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		82AFDD5A1E62975E00A9D0F9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				82DD48F21E5F5533000FFF60 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		82DD48B41E5F438F000FFF60 = {
+			isa = PBXGroup;
+			children = (
+				82DD48BF1E5F4390000FFF60 /* Cek Ongkir */,
+				82DD48C01E5F4390000FFF60 /* AppDelegate.swift */,
+				82DD48CF1E5F4390000FFF60 /* Info.plist */,
+				82DD48D71E5F4390000FFF60 /* Cek OngkirTests */,
+				82DD48E21E5F4390000FFF60 /* Cek OngkirUITests */,
+				82DD48BE1E5F4390000FFF60 /* Products */,
+				EA86EF556BEE6D0FC345E2B5 /* Pods */,
+				8C3F9567F9E26897CCFF6BB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82DD48BE1E5F4390000FFF60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82DD48BD1E5F4390000FFF60 /* Cek Ongkir.app */,
+				82DD48D41E5F4390000FFF60 /* Cek OngkirTests.xctest */,
+				82DD48DF1E5F4390000FFF60 /* Cek OngkirUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82DD48BF1E5F4390000FFF60 /* Cek Ongkir */ = {
+			isa = PBXGroup;
+			children = (
+				82AFDD561E6296B900A9D0F9 /* Models */,
+				82AFDD571E6296FD00A9D0F9 /* Views */,
+				82AFDD581E62971B00A9D0F9 /* Controllers */,
+				82AFDD591E62974E00A9D0F9 /* Stores */,
+				82AFDD5A1E62975E00A9D0F9 /* Helpers */,
+			);
+			path = "Cek Ongkir";
+			sourceTree = "<group>";
+		};
+		82DD48D71E5F4390000FFF60 /* Cek OngkirTests */ = {
+			isa = PBXGroup;
+			children = (
+				82DD48D81E5F4390000FFF60 /* Cek_OngkirTests.swift */,
+				82DD48DA1E5F4390000FFF60 /* Info.plist */,
+			);
+			path = "Cek OngkirTests";
+			sourceTree = "<group>";
+		};
+		82DD48E21E5F4390000FFF60 /* Cek OngkirUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82DD48E31E5F4390000FFF60 /* Cek_OngkirUITests.swift */,
+				82DD48E51E5F4390000FFF60 /* Info.plist */,
+			);
+			path = "Cek OngkirUITests";
+			sourceTree = "<group>";
+		};
+		8C3F9567F9E26897CCFF6BB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E7BDD89099743DB98CF8C85 /* Pods_Cek_Ongkir.framework */,
+				5E56B4D7654633E2F79F59D5 /* Pods_Cek_OngkirTests.framework */,
+				9C089C1FFB3E73B76764A29E /* Pods_Cek_OngkirUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA86EF556BEE6D0FC345E2B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF480D9D51274FC32222F6E1 /* Pods-Cek Ongkir.debug.xcconfig */,
+				B5F70318114E2DFF30F4F881 /* Pods-Cek Ongkir.release.xcconfig */,
+				6EF8FAC3D68F25ABE8B45107 /* Pods-Cek OngkirTests.debug.xcconfig */,
+				9CEAABD94EC0803F45925A45 /* Pods-Cek OngkirTests.release.xcconfig */,
+				A7B0C4F7FD6D1365C08A7F13 /* Pods-Cek OngkirUITests.debug.xcconfig */,
+				85A38707039AB7608EF7FEC1 /* Pods-Cek OngkirUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82DD48BC1E5F438F000FFF60 /* Cek Ongkir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DD48E81E5F4390000FFF60 /* Build configuration list for PBXNativeTarget "Cek Ongkir" */;
+			buildPhases = (
+				15689099AEB4B171D06400F3 /* [CP] Check Pods Manifest.lock */,
+				82DD48B91E5F438F000FFF60 /* Sources */,
+				82DD48BA1E5F438F000FFF60 /* Frameworks */,
+				82DD48BB1E5F438F000FFF60 /* Resources */,
+				A572E7D2EB6349AD22AE4A6B /* [CP] Embed Pods Frameworks */,
+				5BBCBFD26FA9760F3FFB365F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cek Ongkir";
+			productName = "Cek Ongkir";
+			productReference = 82DD48BD1E5F4390000FFF60 /* Cek Ongkir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82DD48D31E5F4390000FFF60 /* Cek OngkirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DD48EB1E5F4390000FFF60 /* Build configuration list for PBXNativeTarget "Cek OngkirTests" */;
+			buildPhases = (
+				0E0F40018232120C19255094 /* [CP] Check Pods Manifest.lock */,
+				82DD48D01E5F4390000FFF60 /* Sources */,
+				82DD48D11E5F4390000FFF60 /* Frameworks */,
+				82DD48D21E5F4390000FFF60 /* Resources */,
+				17C9E5A498D98D9B50241C1C /* [CP] Embed Pods Frameworks */,
+				7B08766E4E44B7F6A15DBCC2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82DD48D61E5F4390000FFF60 /* PBXTargetDependency */,
+			);
+			name = "Cek OngkirTests";
+			productName = "Cek OngkirTests";
+			productReference = 82DD48D41E5F4390000FFF60 /* Cek OngkirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82DD48DE1E5F4390000FFF60 /* Cek OngkirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DD48EE1E5F4390000FFF60 /* Build configuration list for PBXNativeTarget "Cek OngkirUITests" */;
+			buildPhases = (
+				0AEDCCF89DA727CAB80D76DD /* [CP] Check Pods Manifest.lock */,
+				82DD48DB1E5F4390000FFF60 /* Sources */,
+				82DD48DC1E5F4390000FFF60 /* Frameworks */,
+				82DD48DD1E5F4390000FFF60 /* Resources */,
+				615773472898B2A39D8CEE94 /* [CP] Embed Pods Frameworks */,
+				95D9804B9F0A90CA7317F360 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82DD48E11E5F4390000FFF60 /* PBXTargetDependency */,
+			);
+			name = "Cek OngkirUITests";
+			productName = "Cek OngkirUITests";
+			productReference = 82DD48DF1E5F4390000FFF60 /* Cek OngkirUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82DD48B51E5F438F000FFF60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = julis;
+				TargetAttributes = {
+					82DD48BC1E5F438F000FFF60 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 594549GUAG;
+						LastSwiftMigration = 0820;
+					};
+					82DD48D31E5F4390000FFF60 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = 82DD48BC1E5F438F000FFF60;
+					};
+					82DD48DE1E5F4390000FFF60 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = 82DD48BC1E5F438F000FFF60;
+					};
+				};
+			};
+			buildConfigurationList = 82DD48B81E5F438F000FFF60 /* Build configuration list for PBXProject "Cek Ongkir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82DD48B41E5F438F000FFF60;
+			productRefGroup = 82DD48BE1E5F4390000FFF60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82DD48BC1E5F438F000FFF60 /* Cek Ongkir */,
+				82DD48D31E5F4390000FFF60 /* Cek OngkirTests */,
+				82DD48DE1E5F4390000FFF60 /* Cek OngkirUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82DD48BB1E5F438F000FFF60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DD48CE1E5F4390000FFF60 /* LaunchScreen.storyboard in Resources */,
+				82AFDD5E1E62BDAC00A9D0F9 /* cekongkir.png in Resources */,
+				82DD48CB1E5F4390000FFF60 /* Assets.xcassets in Resources */,
+				82DD48C61E5F4390000FFF60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD48D21E5F4390000FFF60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD48DD1E5F4390000FFF60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AEDCCF89DA727CAB80D76DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0E0F40018232120C19255094 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		15689099AEB4B171D06400F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		17C9E5A498D98D9B50241C1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cek OngkirTests/Pods-Cek OngkirTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BBCBFD26FA9760F3FFB365F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cek Ongkir/Pods-Cek Ongkir-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		615773472898B2A39D8CEE94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cek OngkirUITests/Pods-Cek OngkirUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B08766E4E44B7F6A15DBCC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cek OngkirTests/Pods-Cek OngkirTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95D9804B9F0A90CA7317F360 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cek OngkirUITests/Pods-Cek OngkirUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A572E7D2EB6349AD22AE4A6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cek Ongkir/Pods-Cek Ongkir-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82DD48B91E5F438F000FFF60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DD48C31E5F4390000FFF60 /* ViewController.swift in Sources */,
+				82AFDD6A1E62E32B00A9D0F9 /* CardTableViewCell.swift in Sources */,
+				82AFDD621E62CD5F00A9D0F9 /* SearchViewController.swift in Sources */,
+				82AFDD601E62CC5F00A9D0F9 /* LocationSearchBarController.swift in Sources */,
+				82DD48C91E5F4390000FFF60 /* Cek_Ongkir.xcdatamodeld in Sources */,
+				82DD48C11E5F4390000FFF60 /* AppDelegate.swift in Sources */,
+				82AFDD661E62E2DB00A9D0F9 /* ResultsViewController.swift in Sources */,
+				82DD48F31E5F5533000FFF60 /* Constants.swift in Sources */,
+				82AFDD681E62E31A00A9D0F9 /* CardTableView.swift in Sources */,
+				82AFDD5C1E6298BB00A9D0F9 /* API.swift in Sources */,
+				82AFDD6C1E62E38800A9D0F9 /* ResultToolbarController.swift in Sources */,
+				82AFDD641E62D0C400A9D0F9 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD48D01E5F4390000FFF60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DD48D91E5F4390000FFF60 /* Cek_OngkirTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD48DB1E5F4390000FFF60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DD48E41E5F4390000FFF60 /* Cek_OngkirUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82DD48D61E5F4390000FFF60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82DD48BC1E5F438F000FFF60 /* Cek Ongkir */;
+			targetProxy = 82DD48D51E5F4390000FFF60 /* PBXContainerItemProxy */;
+		};
+		82DD48E11E5F4390000FFF60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82DD48BC1E5F438F000FFF60 /* Cek Ongkir */;
+			targetProxy = 82DD48E01E5F4390000FFF60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82DD48C41E5F4390000FFF60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DD48C51E5F4390000FFF60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82DD48CC1E5F4390000FFF60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DD48CD1E5F4390000FFF60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82DD48E61E5F4390000FFF60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82DD48E71E5F4390000FFF60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82DD48E91E5F4390000FFF60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF480D9D51274FC32222F6E1 /* Pods-Cek Ongkir.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Cek Ongkir/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.julis.ios.Cek-Ongkir";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		82DD48EA1E5F4390000FFF60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F70318114E2DFF30F4F881 /* Pods-Cek Ongkir.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Cek Ongkir/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.julis.ios.Cek-Ongkir";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		82DD48EC1E5F4390000FFF60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF8FAC3D68F25ABE8B45107 /* Pods-Cek OngkirTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cek OngkirTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.julis.ios.Cek-OngkirTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cek Ongkir.app/Cek Ongkir";
+			};
+			name = Debug;
+		};
+		82DD48ED1E5F4390000FFF60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CEAABD94EC0803F45925A45 /* Pods-Cek OngkirTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cek OngkirTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.julis.ios.Cek-OngkirTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cek Ongkir.app/Cek Ongkir";
+			};
+			name = Release;
+		};
+		82DD48EF1E5F4390000FFF60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7B0C4F7FD6D1365C08A7F13 /* Pods-Cek OngkirUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Cek OngkirUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.julis.ios.Cek-OngkirUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cek Ongkir";
+			};
+			name = Debug;
+		};
+		82DD48F01E5F4390000FFF60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A38707039AB7608EF7FEC1 /* Pods-Cek OngkirUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Cek OngkirUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.julis.ios.Cek-OngkirUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cek Ongkir";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82DD48B81E5F438F000FFF60 /* Build configuration list for PBXProject "Cek Ongkir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DD48E61E5F4390000FFF60 /* Debug */,
+				82DD48E71E5F4390000FFF60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DD48E81E5F4390000FFF60 /* Build configuration list for PBXNativeTarget "Cek Ongkir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DD48E91E5F4390000FFF60 /* Debug */,
+				82DD48EA1E5F4390000FFF60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DD48EB1E5F4390000FFF60 /* Build configuration list for PBXNativeTarget "Cek OngkirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DD48EC1E5F4390000FFF60 /* Debug */,
+				82DD48ED1E5F4390000FFF60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DD48EE1E5F4390000FFF60 /* Build configuration list for PBXNativeTarget "Cek OngkirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DD48EF1E5F4390000FFF60 /* Debug */,
+				82DD48F01E5F4390000FFF60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		82DD48C71E5F4390000FFF60 /* Cek_Ongkir.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				82DD48C81E5F4390000FFF60 /* Cek_Ongkir.xcdatamodel */,
+			);
+			currentVersion = 82DD48C81E5F4390000FFF60 /* Cek_Ongkir.xcdatamodel */;
+			path = Cek_Ongkir.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 82DD48B51E5F438F000FFF60 /* Project object */;
+}
