@@ -22,35 +22,34 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func didTappedButtonGetProvince(sender: UIButton) {
+    @IBAction func didTappedButtonGetProvince(_ sender: UIButton) {
         let headers = [Key.apiKeyName: Key.apiKeyValue, Key.apiIOSKeyName: Key.apiIOSKeyValue]
         
-        let request = NSMutableURLRequest(URL: NSURL(string: OngkirAPI.provinceURL)!,
-                                          cachePolicy: .UseProtocolCachePolicy,
-                                          timeoutInterval: 10.0)
-        request.HTTPMethod = "GET"
-        request.allHTTPHeaderFields = headers
         
-        let session = NSURLSession.sharedSession()
-        let dataTask = session.dataTaskWithRequest(request, completionHandler: { (data, response, error) -> Void in
+        var myRequest = URLRequest(url: URL(string: OngkirAPI.provinceURL)!, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 10.0)
+        
+        myRequest.httpMethod = "GET"
+        myRequest.allHTTPHeaderFields = headers
+        
+        let mySession = URLSession.shared
+        let task = mySession.dataTask(with: myRequest, completionHandler: { (data, response, error) -> Void in
             if (error != nil) {
-                print(error)
+                print(error ?? "")
             } else {
-                let httpResponse = response as? NSHTTPURLResponse
-                print(httpResponse)
+                let httpResponse = response as? HTTPURLResponse
+                print(httpResponse!)
                 
                 
                 
                 
                 if let data = data,
-                let json = try? NSJSONSerialization.JSONObjectWithData(data, options: []) as? NSDictionary {
-                    print(json)
-                    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)){
-                        dispatch_async(dispatch_get_main_queue()){
+                let json = try? JSONSerialization.jsonObject(with: data, options: []) as? NSDictionary {
+                    print(json!)
+                        DispatchQueue.main.async{
                             self.textViewResult.text = "\(httpResponse) \n \(json)"
 
                         }
-                    }
+                    
                 }
                 
                 
@@ -59,45 +58,43 @@ class ViewController: UIViewController {
             }
         })
         
-        dataTask.resume()
-        
-        
-        
+        task.resume()
         
         
     }
     
     
-    @IBAction func didTappedButtonGetCity(sender: AnyObject) {
+    @IBAction func didTappedButtonGetCity(_ sender: AnyObject) {
         
         let headers = [Key.apiKeyName: Key.apiKeyValue, Key.apiIOSKeyName: Key.apiIOSKeyValue]
         
-        let request = NSMutableURLRequest(URL: NSURL(string: OngkirAPI.cityURL)!,
-                                          cachePolicy: .UseProtocolCachePolicy,
+        var request = URLRequest(url: URL(string: OngkirAPI.cityURL)!,
+                                          cachePolicy: .useProtocolCachePolicy,
                                           timeoutInterval: 10.0)
-        request.HTTPMethod = "GET"
+        request.httpMethod = "GET"
         request.allHTTPHeaderFields = headers
         
-        let session = NSURLSession.sharedSession()
-        let dataTask = session.dataTaskWithRequest(request, completionHandler: { (data, response, error) -> Void in
+        let session = URLSession.shared
+        
+        
+        let task = session.dataTask(with: request, completionHandler: { data, response, error -> Void in
             if (error != nil) {
-                print(error)
+                print(error ?? "")
             } else {
-                let httpResponse = response as? NSHTTPURLResponse
-                print(httpResponse)
+                let httpResponse = response as? HTTPURLResponse
+                print(httpResponse ?? "")
                 
                 
                 
                 
                 if let data = data,
-                    let json = try? NSJSONSerialization.JSONObjectWithData(data, options: []) as? NSDictionary {
-                    print(json)
-                    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)){
-                        dispatch_async(dispatch_get_main_queue()){
+                    let json = try? JSONSerialization.jsonObject(with: data, options: []) as? NSDictionary {
+                    print(json ?? "")
+                        DispatchQueue.main.async{
                             self.textViewResult.text = "\(httpResponse) \n \(json)"
                             
                         }
-                    }
+                    
                 }
                 
                 
@@ -105,8 +102,8 @@ class ViewController: UIViewController {
                 
             }
         })
+        task.resume()
         
-        dataTask.resume()
     }
 
 

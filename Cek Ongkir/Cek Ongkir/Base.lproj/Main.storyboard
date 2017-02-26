@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,49 +18,41 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odV-Te-4Ko">
-                                <rect key="frame" x="238" y="125" width="124" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odV-Te-4Ko">
+                                <rect key="frame" x="98" y="124" width="124" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Get Province Data"/>
                                 <connections>
                                     <action selector="didTappedButtonGetProvince:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XOq-nE-CW2"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KyQ-WM-t8X">
-                                <rect key="frame" x="20" y="317" width="560" height="268"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KyQ-WM-t8X">
+                                <rect key="frame" x="20" y="317" width="284" height="243"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bca-bF-19C">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bca-bF-19C">
                                 <rect key="frame" x="20" y="289" width="57" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCS-63-m9X">
-                                <rect key="frame" x="254" y="210" width="92" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCS-63-m9X">
+                                <rect key="frame" x="114" y="193" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Get City Data"/>
                                 <connections>
                                     <action selector="didTappedButtonGetCity:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JOY-Hh-7kj"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="odV-Te-4Ko" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1iQ-VE-mV7"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KyQ-WM-t8X" secondAttribute="bottom" constant="15" id="2co-uM-lda"/>
-                            <constraint firstItem="Bca-bF-19C" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4hi-kd-7jz"/>
-                            <constraint firstItem="odV-Te-4Ko" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="105" id="5If-cM-8Mu"/>
-                            <constraint firstItem="Bca-bF-19C" firstAttribute="leading" secondItem="KyQ-WM-t8X" secondAttribute="leading" id="5TM-uF-yWc"/>
-                            <constraint firstItem="KyQ-WM-t8X" firstAttribute="top" secondItem="Bca-bF-19C" secondAttribute="bottom" constant="7" id="Co6-Q5-ZZF"/>
-                            <constraint firstItem="SCS-63-m9X" firstAttribute="top" secondItem="odV-Te-4Ko" secondAttribute="bottom" constant="55" id="Fbc-i1-Z2Z"/>
-                            <constraint firstItem="Bca-bF-19C" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Sz0-Zd-Uad"/>
-                            <constraint firstItem="KyQ-WM-t8X" firstAttribute="centerX" secondItem="SCS-63-m9X" secondAttribute="centerX" id="gsy-bv-vCn"/>
-                            <constraint firstItem="odV-Te-4Ko" firstAttribute="centerX" secondItem="SCS-63-m9X" secondAttribute="centerX" id="jmx-HO-HCC"/>
-                        </constraints>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="textViewResult" destination="KyQ-WM-t8X" id="S75-AZ-ipj"/>
@@ -65,7 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="380" y="309"/>
+            <point key="canvasLocation" x="378.75" y="308.45070422535213"/>
         </scene>
     </scenes>
 </document>
