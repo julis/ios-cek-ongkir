@@ -8,12 +8,20 @@
 
 import Foundation
 
+typealias JSONDictionary = Dictionary<String, AnyObject>
+typealias JSONArray = Array<AnyObject>
+
+extension String: LocalizedError {
+    public var errorDescription: String? { return self }
+}
+
 struct OngkirAPI {
     static let baseURL = "http://api.rajaongkir.com/starter"
     static let provinceURL = baseURL + "/province"
     static let cityURL = baseURL + "/city"
 
 }
+
 
 struct Key {
     static let apiKeyName = "key"

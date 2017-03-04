@@ -7,13 +7,18 @@
 //
 
 import UIKit
+import Material
 
 class ResultsViewController: UIViewController {
-
+    
+    var tableView: CardTableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = Color.grey.lighten5
+        
+        prepareTableView()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,4 +37,12 @@ class ResultsViewController: UIViewController {
     }
     */
 
+}
+
+extension ResultsViewController {
+    func prepareTableView() {
+        tableView = CardTableView()
+        tableView.depthPreset = .depth1
+        view.layout(tableView).edges()
+    }
 }

@@ -40,15 +40,20 @@ class ViewController: UIViewController {
         prepareImageView()
         
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
 
     private func prepareHomeButton() {
         homeButton = IconButton(image: Icon.home, tintColor: .darkGray)
-        
     }
     
     private func prepareOriginLabel() {
@@ -58,11 +63,13 @@ class ViewController: UIViewController {
     }
     
     private func prepareSettingButton() {
-        settingButton = IconButton(image: Icon.settings, tintColor: .darkGray)
+        settingButton = IconButton(image: Icon.edit, tintColor: .darkGray)
+        settingButton.addTarget(self, action: #selector(openSettingsView(_:)), for: UIControlEvents.touchUpInside)
     }
     
     private func prepareBar() {
         bar = Bar(leftViews: [homeButton,originLabel], rightViews: [settingButton])
+        
         
         view.layout(bar).horizontally().top(20)
     }
@@ -103,6 +110,12 @@ class ViewController: UIViewController {
     func openSearchView(_ sender: AnyObject){
         let locationSearchVC = LocationSearchBarController(rootViewController: SearchViewController())
         self.present(locationSearchVC, animated: true, completion: nil)
+    }
+    
+    func openSettingsView(_ sender: AnyObject) {
+        let resultsVC = ResultToolbarController(rootViewController: ResultsViewController())
+        //let resultsVC = ResultsViewController()
+        self.present(resultsVC, animated: true, completion: nil)
     }
 }
 
